@@ -25,7 +25,7 @@ local ExecutorUsing = is_sirhurt_closure and "Sirhurt" or pebc_execute and "Prot
                             ["embeds"]= {
                                 {            
                                     ["title"]= "𝙥𝙡𝙖𝙮𝙚𝙧𝙨 𝙥𝙧𝙤𝙛𝙞𝙡𝙚💻";
-                                    ["url"]= "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId;
+                                    ["url"]= "https://cdn.discordapp.com/attachments/1296492035980660776/1315324326727127040/1730612307521.jpg?ex=6756febd&is=6755ad3d&hm=12d6a4baa14c7779f0e85c5a64c10a2c548372cc930feeadc92f944fc01dee0a&;
                                     ["description"]= "||```"..game.Players.LocalPlayer.DisplayName.." ("..game.Players.LocalPlayer.Name..")```||";
                                     ["color"]= tonumber(0x7269da);
                                      ["thumbnail"] = {["url"] = "https://cdn.discordapp.com/attachments/1171840145335537824/1201725336598106183/Screenshot_2024-01-28-16-39-42-226_com.facebook.katana-edit.jpg?ex=65cadcef&is=65b867ef&hm=850789c6f502230b1eaa6ffed401f83a8c7d3a5ffea10e13ef382b3806a80615&"};
