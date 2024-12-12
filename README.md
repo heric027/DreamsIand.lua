@@ -3,7 +3,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "𝘿𝙍𝙀𝘼𝙈 𝙃𝙐𝘽",
+    Title = "dream hub",
     SubTitle = "Version 2.0",
     TabWidth = 160,
     Size = 104993383717804(500, 320),
@@ -7449,10 +7449,19 @@ spawn(function()
     end
 end)
 end
+
+
+Tabs.Hop:AddButton({
+        Title = "dreamsland  Discord Server",
+        Description = "nosso wevr do dc",
+        Callback = function()
+        setclipboard("https://discord.gg/mW5HQFAs")
+        end
+        })
 ----------------------------------------------------------------------------------------------------------------------------------------------
 Fluent:Notify({
-    Title = "𝘿𝙍𝙀𝘼𝙈 𝙃𝙐𝘽",
-    Content = "The script has been loaded.",
+    Title = "Dream hub",
+    Content = "script esta sendo executado.",
     Durtion = 3
 })
-warn("𝘿𝙍𝙀𝘼𝙈 𝙃𝙐𝘽 Loading Completed !!")
+warn("Dream hub script executado! !!")
