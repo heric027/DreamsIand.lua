@@ -3,10 +3,10 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Dream hub",
-    SubTitle = "blox fruit",
+    Title = "dream hub",
+    SubTitle = "Version 2.0",
     TabWidth = 160,
-    Size = rbxassetid://104993383717804,
+    Size = 104993383717804(500, 320),
     Acrylic = true,
     Theme = "Darker",
     MinimizeKey = Enum.KeyCode.End
@@ -7400,7 +7400,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
             Hop()
             Fluent:Notify({
-                Title = "Dream hub",
+                Title = "𝘿𝙍𝙀𝘼𝙈 𝙃𝙐𝘽",
                 Content = "Turn Off Find Full Moon...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -7408,7 +7408,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
             Hop()
             Fluent:Notify({
-                Title = "Dream hub",
+                Title = "𝘿𝙍𝙀𝘼𝙈 𝙃𝙐𝘽",
                 Content = "Hop...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -7416,7 +7416,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
             Hop()
             Fluent:Notify({
-                Title = "Dream hub",
+                Title = "𝘿𝙍𝙀𝘼𝙈 𝙃𝙐𝘽",
                 Content = "Hop...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -7453,10 +7453,9 @@ end
 
 Tabs.Hop:AddButton({
         Title = "dreamsland  Discord Server",
-        Description = "Nosso serve do Discord",
+        Description = "nosso wevr do dc",
         Callback = function()
         setclipboard("https://discord.gg/mW5HQFAs")
-        Logo = "rbxassetid://104993383717804",
         end
         })
 ----------------------------------------------------------------------------------------------------------------------------------------------
